@@ -147,7 +147,7 @@ def identify_object():
         
     except Exception as e:
         logging.error(f"Error during identification: {e}")
-        return jsonify({'error': 'Internal server error', 'details': str(e)}), 500
+        return jsonify({'error': 'Internal server error'}), 500
 
 @app.route('/health', methods=['GET'])
 def health_check():
