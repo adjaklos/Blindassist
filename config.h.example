@@ -1,0 +1,36 @@
+/*
+ * Configuration file for BlindAssist
+ * 
+ * IMPORTANT: Copy this file to config.h and update with your credentials
+ * Never commit config.h with real credentials to version control
+ */
+
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// WiFi Configuration
+#define WIFI_SSID "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
+
+// API Configuration
+#define API_ENDPOINT "https://api.example.com/identify"
+#define API_KEY "YOUR_API_KEY"
+#define USE_API true  // Set to false to use only local ML
+
+// Detection Configuration
+#define CONFIDENCE_THRESHOLD 0.5  // Minimum confidence for object detection
+#define AUTO_CAPTURE_ENABLED true // Enable automatic periodic captures
+#define CAPTURE_INTERVAL_MS 5000  // Time between auto-captures in milliseconds
+
+// Audio Feedback Configuration
+#define ENABLE_AUDIO true
+#define AUDIO_VOLUME 50  // 0-100
+
+// Performance Configuration
+#define IMAGE_QUALITY 12  // JPEG quality: 0-63 (lower is better quality, larger file)
+#define FRAME_SIZE FRAMESIZE_QVGA  // 320x240 - good balance of quality and speed
+
+// Debug Configuration
+#define DEBUG_MODE true  // Enable serial debug output
+
+#endif
