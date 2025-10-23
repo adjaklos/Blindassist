@@ -1,0 +1,62 @@
+# Arduino build artifacts
+*.hex
+*.elf
+*.bin
+
+# Configuration files with credentials
+config.h
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Model files (large binary files)
+*.tflite
+*.pb
+*.h5
+*.ckpt
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation build
+docs/_build/
