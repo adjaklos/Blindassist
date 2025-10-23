@@ -33,6 +33,8 @@ BlindAssist is an assistive technology device that helps visually impaired users
 
 ## Quick Start
 
+⚡ **[Get started in 15 minutes!](QUICKSTART.md)** - Complete step-by-step setup guide
+
 ### Hardware Required
 - Seeed Xiao ESP32S3 Sense
 - Push button
@@ -54,11 +56,19 @@ BlindAssist is an assistive technology device that helps visually impaired users
 4. Listen for detection audio feedback
 5. Check Serial Monitor for object names
 
+**📋 See [QUICKSTART.md](QUICKSTART.md) for detailed instructions**
+
 ## Documentation
+
+📋 **[Quick Start Guide](QUICKSTART.md)** - Get up and running in 15 minutes!
 
 📖 **[Complete Documentation](DOCUMENTATION.md)** - Full setup, configuration, and usage guide
 
 🔧 **[Hardware Setup Guide](HARDWARE_SETUP.md)** - Wiring diagrams, pinouts, and assembly instructions
+
+☁️ **[API Deployment Guide](API_DEPLOYMENT.md)** - Deploy your own API server to the cloud
+
+💡 **[Examples & Use Cases](EXAMPLES.md)** - Advanced features and real-world applications
 
 ## Project Structure
 
@@ -168,7 +178,9 @@ Contributions are welcome! Please feel free to submit pull requests or create is
 
 ## License
 
-This project is open source and available for educational and assistive technology purposes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**Disclaimer**: This device is an assistive aid and should not be used as the sole means of navigation or object identification. Always use in conjunction with traditional mobility aids and techniques.
 
 ## Support
 
